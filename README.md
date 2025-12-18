@@ -4,13 +4,15 @@
 ## Project structure
 ```bash
 └───app   
-    ├───config         # Project virtual environments and default values
-    ├───docs           # Swagger  
+    ├───config                      # Project virtual environments and default values
+    │   ├───config-example.toml     # Example, public, filled with default data and credentials ✅
+    │   └───config.toml             # Sh-h-h-h! Keep production file in secret (gitignored, btw) 🤫
+    ├───docs                        # Swagger  
     ├───modules
-    │   ├───handlers   # Your framework api code (routes, response&request types, etc.)
-    │   └───services   # Your mainclasses 
-    ├───static         # Web static directory
-    └───views          # Html&css stuff if using render
+    │   ├───handlers                # Your framework api code (routes, response&request types, etc.)
+    │   └───services                # Your mainclasses 
+    ├───static                      # Web static directory
+    └───views                       # Html&css stuff if using render
 ```
 
 ## Environment
