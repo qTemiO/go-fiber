@@ -37,7 +37,7 @@ func LoadConfig(envPath string, tomlPath string) *Config {
 		return cfg
 	}
 
-	err := godotenv.Load("../.env.production")
+	err := godotenv.Load(envPath)
 	if err != nil {
 		log.Println("Не удалось загрузить .env файл, используются значения по умолчанию")
 	}
