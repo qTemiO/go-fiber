@@ -1,11 +1,11 @@
 basePath: /
 info:
   contact: {}
-  description: API for creating licenses
+  description: API for education and myself
   license:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
-  title: License Service API
-  version: "1.0"
+  title: Golang Fiber template Service
+  version: 0.1.0
 paths: {}
 swagger: "2.0"
