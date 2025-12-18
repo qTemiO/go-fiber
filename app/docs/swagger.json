@@ -1,14 +1,14 @@
 {
     "swagger": "2.0",
     "info": {
-        "description": "API for creating licenses",
-        "title": "License Service API",
+        "description": "API for education and myself",
+        "title": "Golang Fiber template Service",
         "contact": {},
         "license": {
             "name": "Apache 2.0",
             "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
         },
-        "version": "1.0"
+        "version": "0.1.0"
     },
     "basePath": "/",
     "paths": {}
